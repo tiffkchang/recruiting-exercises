@@ -1,0 +1,20 @@
+
+/*
+ * Computes the cheapest possible shipment given inventory
+ */
+public class InventoryAllocator {
+    // The items being ordered and how many are ordered
+    Map<Item> items;
+    // The warehouse names and inventory amounts of the items
+    List<Object> inventoryAmounts;
+
+    public InventoryAllocator(Map<Item> items, List<Object> inventoryAmounts) {
+        this.items = items;
+        this.inventoryAmounts = inventoryAmounts;
+    }
+
+    public static void main(String[] args) {
+        for (item : items) {
+        }
+    }
+}
